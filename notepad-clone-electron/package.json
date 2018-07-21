@@ -1,0 +1,16 @@
+{
+	"name": "notepad-clone-electron",
+	"version": "0.0.0",
+	"description": "A clone of Windows text editor built with Electron",
+	"main": "main.js",
+	"scripts": {
+		"start": "electron ."
+	},
+	"author": {
+		"name": "Alexander Grzywna"
+	},
+	"devDependencies": {
+		"electron": "^2.0.5"
+	},
+	"dependencies": {}
+}

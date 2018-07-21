@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Notepad</title>
+		<style>
+			html, body {
+				height: 100%;
+			}
+
+			body {
+				margin: 0px;
+				overflow: hidden;
+			}
+
+			textarea {
+				border: none;
+				height: 100% !important;
+				outline: none;
+				overflow: scroll;
+				padding: 0;
+				resize: none;
+				width: 100% !important;
+			}
+		</style>
+	</head>
+	<body>
+		<textarea>
+			At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies. 
+		</textarea>
+
+		<script>
+			// You can also require other files to run in this process
+			require('./renderer.js')
+		</script>
+	</body>
+</html>
